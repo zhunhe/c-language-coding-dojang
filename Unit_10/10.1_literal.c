@@ -11,5 +11,10 @@ int main(void)
     printf("0%o\n", 017);
     printf("0x%X\n", 0x1F);
 
+    printf("%f\n", 0.1f);
+    printf("%f\n", 0.1F);
+    printf("%f\n", 1.0e-5f);
+    printf("%f\n", 1.0E-5F);
+
     return 0;
 }
