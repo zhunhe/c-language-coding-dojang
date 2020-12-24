@@ -7,3 +7,7 @@ https://dojang.io/course/view.php?id=2
 2020.12.21 1일차 Unit_01 ~ Unit_20
 
 2020.12.22 2일차 Unit_21 ~ Unit_40
+
+2020.12.23 3일차 Unit_41 ~ Unit_50
+
+2020.12.24 4일차 Unit_51 ~ Unit_60
