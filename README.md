@@ -13,3 +13,5 @@ https://dojang.io/course/view.php?id=2
 2020.12.24 4일차 Unit_51 ~ Unit_60
 
 2020.12.27 5일차 Unit_61 ~ Unit_69
+
+2020.12.28 6일차 Unit_70 ~ Unit_75
