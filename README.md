@@ -17,3 +17,5 @@ https://dojang.io/course/view.php?id=2
 2020.12.28 6일차 Unit_70 ~ Unit_75
 
 2020.12.29 7일차 Unit_76 ~ Unit_85
+
+![ex_screenshot](./img/progress.png)
