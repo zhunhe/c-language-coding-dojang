@@ -1,0 +1,19 @@
+command1) gcc -g -std=c99 -O3 -c 85.16_increase.c
+command2) objdump -S 85.16_increase.o
+
+85.16_increase.o:	file format Mach-O 64-bit x86-64
+
+Disassembly of section __TEXT,__text:
+_increase:
+; {
+       0:	55 	pushq	%rbp
+       1:	48 89 e5 	movq	%rsp, %rbp
+; *a += *x;    // x를 역참조하여 가져온 값만큼 *a를 역참조하여 값을 증가시킴
+       4:	8b 02 	movl	(%rdx), %eax
+       6:	01 07 	addl	%eax, (%rdi)
+; *b += *x;    // x를 역참조하여 가져온 값만큼 *b를 역참조하여 값을 증가시킴
+       8:	8b 02 	movl	(%rdx), %eax
+       a:	01 06 	addl	%eax, (%rsi)
+; }
+       c:	5d 	popq	%rbp
+       d:	c3 	retq
